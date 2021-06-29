@@ -1,10 +1,8 @@
 import React from 'react';
-import Navbar from '../Header/Navbar/Navbar';
 import ProfileList from '../Profile/ProfileList/ProfileList'
 const Home = () => {
     return (
-        <div className="container">
-            <Navbar></Navbar>
+        <div>
             <ProfileList></ProfileList>
         </div>
     );
